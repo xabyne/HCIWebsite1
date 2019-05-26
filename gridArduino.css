@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1024px){
+.grid-container{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 0px;
+	height: 20px;
+
+	grid-template-areas:
+	"een"
+	"twee"
+	"drie"
+	"vier"
+	"vijf"
+	"zes"
+	"zeven"
+	"acht"
+	"negen"
+	"tien"
+}
+
+.grid-item{
+	width: 70%;
+	margin: 0 auto;
+
+}
+}
