@@ -66,7 +66,7 @@ h3{
 	padding-bottom: 10px;
 }
 
-
+/*
 * {box-sizing:border-box}
 
 .mySlides, .mySlides4 {
@@ -79,7 +79,6 @@ img{
 	width: 330px;
 	height: 240px;}
 
-/* Slideshow container */
 .slideshow-container {
   width: 100%;
   position: relative;
@@ -88,7 +87,6 @@ img{
 }
 
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -104,19 +102,16 @@ img{
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
   margin-right: 15px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color:#efd0eb;
 }
 
-/* Caption text */
 .text {
   color: black;
   font-size: 15px;
@@ -128,7 +123,6 @@ img{
 }
 
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -145,7 +139,6 @@ img{
   background-color: #717171;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -161,7 +154,7 @@ img{
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}
+}*/
 
 .witvlakte{
 	height: 50px;
