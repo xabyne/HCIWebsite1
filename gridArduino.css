@@ -17,11 +17,23 @@
 	"acht"
 	"negen"
 	"tien"
+	}
+
+	.grid-item{
+		width: 70%;
+		margin: 0 auto;
+
+	}
+
+	.opdrachtenArduino{
+	  width: 60%;
+	  margin: 0 auto;
+	  display: block;
+	  padding-bottom: 10px;
+	}
+
+	video{
+		width: 60%;
+	}
 }
 
-.grid-item{
-	width: 70%;
-	margin: 0 auto;
-
-}
-}

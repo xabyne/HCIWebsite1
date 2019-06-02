@@ -1,3 +1,13 @@
+
+
+
+/*
+!!!!!!!!!!!!!!!!!!
+LET OP IK MOET NOG EEN GRID VOOR MIJN MOBIELE VERSIE, IK HEB ER NU ALLEEN 1
+VOOR MIJN MEDIA QUERIE MAAR NIET VOOR MIJN MOBIELE VERSIE
+!!!!!!!!!!!!!!!!!*/
+
+
 @import url("https://fonts.googleapis.com/css?family=Kodchasan&display=swap" rel="stylesheet");
 
 p{
@@ -16,8 +26,8 @@ h2{
   padding-top: 20px;
 /*  font-family: 'Heebo', sans-serif;
 */ 
-  margin-right: 10px;
-  background-color: /*#e5bcdf*/ #efd0eb;
+/*  margin-right: 10px;
+*/  background-color: /*#e5bcdf*/ #efd0eb;
   width: 100%;
   padding: 10px;
   margin-left: 0px;
@@ -177,4 +187,33 @@ img{
 .formule{
 	padding-top: 0px;
 }
+
+video{
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+.opdrachtenArduino{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.fotosExcursie{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.computerVisionAfbeeldingen{
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 10px;
+}
+
 

@@ -20,10 +20,14 @@
 	}
 
 	.conceptenVisualisatie{
-  width: 60%;
-  height: 60%;
-  margin: 0 auto;
-  display: block;
-  padding-bottom: 20px;
-}
+	  width: 60%;
+	  height: 60%;
+	  margin: 0 auto;
+	  display: block;
+	  padding-bottom: 20px;
+	}
+
+	video{
+	  	width: 60%;
+	  }
 }

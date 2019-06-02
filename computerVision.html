@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="detailpagina.css"/>
+    <link rel="stylesheet" type="text/css" href="gridCV.css"/>
+    <title>Xabyne van Veen</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="logo">
+        <h1> Xabyne van Veen</h1>
+      </div>
+
+      <nav id='cssmenu'>
+        <div id="head-mobile"></div>
+        <div class="button"></div>
+        <ul>
+          <li><a href='index.html'>Home</a></li> <!-- Als ik de home active wil, dan kan ik dat doen dmv deze class toe te voegen: class='active' -->
+
+          <li><a href='wearablesGoede.html'>Wearables</a>
+            <ul>
+              <li><a href=''>Assignments</a></li>
+              <li><a href='#'>Research</a></li>
+              <li><a href='#'>Reflect</a></li>
+            </ul>
+          </li>
+
+          <li><a href='playfulInterfaces.html'>Playful Interactions</a>
+            <ul>
+              <li><a href='#'>Assignments</a></li>
+              <li><a href='#'>Research</a></li>
+              <li><a href='#'>Reflect</a></li>
+            </ul>
+          </li>
+
+          <li><a href='artificialCreatures.html'>Artificial Creatures</a>
+            <ul>
+              <li><a href='#'>Assignments</a></li>
+              <li><a href='#'>Research</a></li>
+              <li><a href='#'>Reflect</a></li>
+            </ul>
+          </li>
+
+           <li><a href='arvr.html'>AR & VR</a>
+            <ul>
+              <li><a href='#'>Assignments</a></li>
+              <li><a href='#'>Research</a></li>
+              <li><a href='#'>Reflect</a></li>
+            </ul>
+          </li>
+
+          <li><a href='arduino.html'>Arduino</a>
+              <ul>
+              <li><a href='#'>Assignments</a></li>
+            </ul>
+          </li>
+
+          <li><a href='VRenvironments.html'>VR Environments</a>
+            <ul>
+              <li><a href='#'>Assignments</a></li>
+            </ul>
+          </li>
+
+          <li><a href='computerVision.html'>Computer Vision</a>
+            <ul>
+              <li><a href='#'>Assignments</a></li>
+            </ul>
+          </li>
+
+          <li><a href='excursie.html'>Excursion</a>
+             <ul>
+              <li><a href='#'>Assignments</a></li>
+              <li><a href='#'>Research</a></li>
+              <li><a href='#'>Reflect</a></li>
+            </ul>
+          </li>
+
+          <li><a href='#'>Lab weeks</a>
+           <ul>
+              <li><a href='#'>Assignments</a></li>
+              <li><a href='#'>Product</a></li>
+              <li><a href='#'>Reflect</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <body class="grid-container">
+    <div class="grid-item cv een">
+      <p>Ik heb de workshop Computer Vision gevolgd. Tijdens deze workshop ben ik beter bekend geraakt met het programma Processing. Hierin heb ik verschillende visualisaties en interacties gemaakt.
+      </p>
+    </div>
+
+     <div class="grid-item cv twee">
+       <h2>ASSIGNMENT 1</h2>
+       <p>In deze opdracht moest ik drie figuren maken die elk een andere locatie hadden, verschillende kleuren bevatten, verschillende breedtes en hoogtes betroffen, en sommigen wel en geen border betroffen. Dit moest met het programma processing gemaakt worden. Ik heb gebruik gemaakt van een void setup functie om dit in werking te brengen.</p>
+
+       <img src="computerVision/assignment1/cv1.png" class="computerVisionAfbeeldingen">
+    </div>
+
+    <div class="grid-item cv drie">
+      <h2>ASSIGNMENT 2</h2>
+      <p>In deze opdracht moest ik een code schrijven waarin er minstens vier verschillende figuren te zien waren. Elk figuur moest een eigen kleur en een een eigen locatie hebben. Ik heb deze code ook in processing gemaakt. Om deze figuren tot uiting te brengen, moest ik hier ook gebruik mak n van een void setup functie.</p>
+
+        <img src="computerVision/assignment2/cv2.png" class="computerVisionAfbeeldingen">
+    </div>
+
+     <div class="grid-item cv vier">
+      <h2>ASSIGNMENT 3</h2>
+      <p>In deze opdracht moesten minstens 2 verschillende vormen gemaakt worden met verschillende kleuren. Ook moest het interactief worden gemaakt. Ik heb ervoor gekozen om in een rondje een vierkantje te plaatsen. De kleuren verschillen zodanig van elkaar dat er een goed onderscheid kan worden gemaakt tussen de verschillende figuren. Het interactieve component aan mijn figuren, bevat het vermenigvuldigen van de figuren aan de hand van waar de muis langs beweegt. Overal waar je de muis langs beweegt, daar zullen de figuren een spoor achter laten. Ik vond dit een leuk idee omdat je scherm zo steeds meer gevuld raakt met de figuren.</p>
+
+        <video width="100%" controls autoplay>
+          <source src="computerVision/assignment3/assignment3.mp4" type="video/mp4">
+        </video>    
+    </div>
+
+    <div class="grid-item cv vijf">
+      <h2>ASSIGNMENT CV1</h2>
+      <p>In deze opdracht was het de bedoeling om met de webcam te werken. De opdracht was om van het vierkantje om het hoofd een cirkel te maken. Ik heb hiervoor het attribuut "ellipse" gebruikt.</p>
+
+      <img src="computerVision/assignmentCV1/cvCV1.png" class="computerVisionAfbeeldingen">
+    </div>
+
+    <div class="grid-item cv zes">
+      <h2>ASSIGNMENT CV2</h2>
+      <p>In deze opdracht was het de bedoeling dat er een rode neus op elk persoon kwam die in beeld verscheen. Hiervoor heb ik de code aan moeten passen. De opencv.loadCascade moest aangepast worden naar het herkennen van de neus. Vervolgens moest de fill rood worden, zodat het rondje dat om de neus kwam te staan, rood werd. Om deze opdracht helemaal te laten slagen is er een void setup gebruikt, void draw en een void captureEvent. </p>
+
+      <img src="computerVision/assignmentCV2/cvCV2.png" class="computerVisionAfbeeldingen">
+    </div>
+
+     <div class="grid-item cv zeven">
+      <h2>BONUS ASSIGNMENT</h2>
+      <p>Dit was een bonus opdracht. Ik moest ervoor zorgen dat er iets creatiefs gebeurde. Er moest een afbeelding op een bepaalde plek in beeld komen op je gezicht. Ik heb ervoor gekozen om een filter met een bril over mijn gezicht te laten komen. Ik vond dit een leuke toepassing, omdat het zo wat weg heeft van een SnapChat filter.</p>
+
+      <img src="computerVision/bonusAssignment/bonus.png" class="computerVisionAfbeeldingen">
+    </div>
+
+    <div class="grid-item cv acht">
+      <h2>ASSIGNMENT CV3</h2>
+      <p>In deze opdracht moest je zelf iets creatiefs bouwen. Om inspiratie op te doen, kon worden gekeken naar voorbeelden. Ik heb gebruik gemaakt van de "OpenCVMultipleColorTrackingLiveCam". Hiermee kan je op de knoppen 1, 2, 3 en vier drukken. Als je vervolgens op het scherm klikt dan verschijnt er een klein scherm in het zwart-wit op de plek van welk cijfer je indrukt. Ook komen er verschillende rode vierkantjes in beeld.</p>
+
+       <video width="100%" controls autoplay>
+          <source src="computerVision/assignmentCV3/assignmentCV3.mp4" type="video/mp4">
+        </video>   
+    </div>
+
+    <div class="grid-item cv negen">
+      <h2>ASSIGNMENT AR</h2>
+      <p>In deze opdracht moesten we ervoor zorgen dat bepaalde markeringen/vlakken werden herkend. Vervolgens werd hier een blauw blok op geplaatst. Om dit te kunnen doen moest NyARToolkit gedownload en geïnstalleerd worden. We hadden twee blaadjes gekregen met vlakken erop. Het blauwe vlak werd ook een 3D vlak.</p>
+
+      <img src="computerVision/assignmentAR/ar.png" class="computerVisionAfbeeldingen">
+    </div>
+
+
+  </body>
+</html>
+
+    

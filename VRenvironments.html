@@ -7,7 +7,7 @@
     <script type="text/javascript" src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" type="text/css" href="detailpagina.css"/>
-    <link rel="stylesheet" type="text/css" href="gridHwOpdrachten.css"/>
+    <link rel="stylesheet" type="text/css" href="gridCV.css"/>
     <title>Xabyne van Veen</title>
   </head>
 
@@ -25,7 +25,7 @@
 
           <li><a href='wearablesGoede.html'>Wearables</a>
             <ul>
-              <li><a href='we'>Assignments</a></li>
+              <li><a href=''>Assignments</a></li>
               <li><a href='#'>Research</a></li>
               <li><a href='#'>Reflect</a></li>
             </ul>
@@ -61,19 +61,19 @@
             </ul>
           </li>
 
-          <li><a href='#'>VR Environments</a>
+          <li><a href='VRenvironments.html'>VR Environments</a>
             <ul>
               <li><a href='#'>Assignments</a></li>
             </ul>
           </li>
 
-          <li><a href='#'>Computer Vision</a>
+          <li><a href='computerVision.html'>Computer Vision</a>
             <ul>
               <li><a href='#'>Assignments</a></li>
             </ul>
           </li>
 
-          <li><a href='#'>Excursion</a>
+          <li><a href='excursie.html'>Excursion</a>
              <ul>
               <li><a href='#'>Assignments</a></li>
               <li><a href='#'>Research</a></li>
@@ -91,5 +91,48 @@
         </ul>
       </nav>
     </header>
-    <body class="">
-    </body>
+    <body class="grid-container">
+    <div class="grid-item vr een">
+      <p>In deze workshop heb ik geleerd om in het programma Unreal Engine te werken. Ik heb eerst een banaan gemaakt, vervolgens heb ik deze banaan in een game verwerkt. Ook heb ik met een projector gewerkt. Deze opdracht hield verband met Spatial Augmented Reality.
+      </p>
+    </div>
+
+    <div class="grid-item vr twee">
+    <h2>UNREAL ENGINE ASSIGNMENT 1</h2>
+      <p>In deze opdracht moest een banaan gemaakt worden. De banaan moest ook de looks van een echte banaan krijgen, dus er werd een skin over de banaan gelegd. Verder moest de banaan op een podium draaien. Dit is allemaal in Unreal Engine gemaakt. Om de banaan te laten werken, zijn de "AddLocalRotation", "Event Tick" en de "Default Scene Root" met elkaar verbonden. Er is gebruik gemaakt van de objecten: material, model, texture om de banaan te maken. Ook is er een blueprint gemaakt.
+      </p>
+
+        <video width="100%" controls autoplay>
+          <source src="VRenvironments/bananaTurntable.mp4" type="video/mp4">
+        </video> 
+    </div>
+
+     <div class="grid-item vr drie">
+    <h2>UNREAL ENGINE ASSIGNMENT 2</h2>
+      <p>In deze opdracht moesten we de gemaakte banaan van de vorige opdracht meerdere keren plaatsen in een vlak met muren. Het is de bedoeling dat in dit vlak een game wordt gemaakt. In het midden staat een cillinder. Er is een rood blokje dat bananen moest verzamelen. Dit blokje mag niet door de cillinder en de muren gaan. Het is de bedoeling dat als het blokje de bananen aanraakt, dat de bananen verdwijnen. Het rode blokje zou zo als het ware de bananen "opeten". Om dit tot uiting te brengen, heb ik de "AddLocalRotation", "Event Tick", "Rotation Speed" en de "Multiplication(A*B)" aan elkaar verbonden en de "On Component Begin Overlap (StaticMesh)" en de "DestroyActor" aan elkaar verbonden.
+      </p>
+
+        <video width="100%" controls autoplay>
+          <source src="VRenvironments/bananaCollector.mp4" type="video/mp4">
+        </video> 
+    </div>
+
+    <div class="grid-item vr drie">
+    <h2>SAR ASSIGNMENT 2</h2>
+      <p>Spatial Augmented Reality maakt gebruik van alledaagse videoprojecten, maar in plaats van de projecteren op een vlak scherm wordt licht in kaart gebracht op elk oppervlak, waardoor gewone 3D objecten in interactieve displays worden omgezet. Voordat ik begon, is de MadMapper demo gedownload. Vervolgens is de projector met de computer verbonden. Hierna kon ik aan de slag met mijn projecties. Ik heb een dwerg op onder een paddestoel geprojecteerd. Ook heb ik een angstig baby gezcht op een hoofd geprojecteerd waarbij op het rondje een orkaanuitbarsting werd geprojecteerd. De orkaanuitbarsting reageerde op geluid, dit maakt het een interactieve projectie.
+      </p>
+
+        <video width="100%" controls autoplay>
+          <source src="VRenvironments/dansendeDwerg.mp4" type="video/mp4">
+        </video>
+
+        <video width="100%" controls autoplay>
+          <source src="VRenvironments/orkaanuitbarsting.mp4" type="video/mp4">
+        </video>  
+    </div>
+
+
+
+
+  </body>
+</html>
