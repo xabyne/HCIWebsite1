@@ -12,7 +12,8 @@
   </head>
 
   <body>
-    <header>
+    
+          <header>
       <div id="logo">
         <h1> Xabyne van Veen</h1>
       </div>
@@ -25,67 +26,66 @@
 
           <li><a href='wearablesGoede.html'>Wearables</a>
             <ul>
-              <li><a href='we'>Assignments</a></li>
-              <li><a href='#'>Research</a></li>
-              <li><a href='#'>Reflect</a></li>
+              <li><a href='wearablesGoede.html#assignmentWearables'>Assignments</a></li> <!-- hij gaat hierbij naar het id toe op de pagina van wearables -->
+              <li><a href='wearablesGoede.html#researchWearables'>Research</a></li>
+              <li><a href='wearablesGoede.html#reflectionWearables'>Reflect</a></li>
             </ul>
           </li>
 
           <li><a href='playfulInterfaces.html'>Playful Interactions</a>
             <ul>
-              <li><a href='#'>Assignments</a></li>
-              <li><a href='#'>Research</a></li>
-              <li><a href='#'>Reflect</a></li>
+              <li><a href='playfulInterfaces.html#assignmentPlayfullInterfaces'>Assignments</a></li>
+              <li><a href='playfulInterfaces.html#researchPlayfullInterfaces'>Research</a></li>
+              <li><a href='playfulInterfaces.html#reflectionPlayfullInterfaces'>Reflect</a></li>
             </ul>
           </li>
 
           <li><a href='artificialCreatures.html'>Artificial Creatures</a>
             <ul>
-              <li><a href='#'>Assignments</a></li>
-              <li><a href='#'>Research</a></li>
-              <li><a href='#'>Reflect</a></li>
+              <li><a href='artificialCreatures.html#assignmentAC'>Assignments</a></li>
+              <li><a href='artificialCreatures.html#researchAC'>Research</a></li>
+              <li><a href='artificialCreatures.html#reflectionAC'>Reflect</a></li>
             </ul>
           </li>
 
-           <li><a href='arvr.html'>AR & VR</a>
+          <li><a href='arvr.html'>AR & VR</a>
             <ul>
-              <li><a href='#'>Assignments</a></li>
-              <li><a href='#'>Research</a></li>
-              <li><a href='#'>Reflect</a></li>
+              <li><a href='arvr.html#assignmentARVR'>Assignments</a></li>
+              <li><a href='arvr.html#researchARVR'>Research</a></li>
+              <li><a href='arvr.html#reflectARVR'>Reflect</a></li>
             </ul>
           </li>
 
           <li><a href='arduino.html'>Arduino</a>
               <ul>
-              <li><a href='#'>Assignments</a></li>
+              <li><a href='arduino.html#assignentsArduino'>Assignments</a></li>
             </ul>
           </li>
 
           <li><a href='VRenvironments.html'>VR Environments</a>
             <ul>
-              <li><a href='#'>Assignments</a></li>
+              <li><a href='VRenvironments.html#assignmentsVR'>Assignments</a></li>
             </ul>
           </li>
 
           <li><a href='computerVision.html'>Computer Vision</a>
             <ul>
-              <li><a href='#'>Assignments</a></li>
+              <li><a href='computerVision.html#assignmentCV'>Assignments</a></li>
             </ul>
           </li>
 
           <li><a href='excursie.html'>Excursion</a>
              <ul>
-              <li><a href='#'>Assignments</a></li>
-              <li><a href='#'>Research</a></li>
-              <li><a href='#'>Reflect</a></li>
+              <li><a href='excursie.html#assignmentExcursie'>Assignments</a></li>
+              <li><a href="excursie.html#reflectieExcursie">Reflect</a></li>
             </ul>
           </li>
 
-          <li><a href='#'>Lab weeks</a>
+          <li><a href='labweken.html'>Lab weeks</a>
            <ul>
-              <li><a href='#'>Assignments</a></li>
-              <li><a href='#'>Product</a></li>
-              <li><a href='#'>Reflect</a></li>
+              <li><a href='labweken.html#processLabweken'>Process</a></li>
+              <li><a href='labweken.html#productLabweken'>Product</a></li>
+              <li><a href='labweken.html#reflectLabweken'>Reflect</a></li>
             </ul>
           </li>
         </ul>
@@ -95,7 +95,7 @@
     <body class="grid-container">
       
       <div class="grid-item een">
-        <h2>ASSIGNMENTS</h2>
+        <h2 id="assignentsArduino">ASSIGNMENTS</h2>
         <p>Tijdens de workshops heb ik geleerd hoe ik elektronica met de microcontroller kan verbinden. Ook heb ik nog meer leren programmeren. Dit heb ik geleerd door middel van de Arduino-kit. Arduino is een open-source elektronica platform voor het bouwen van prototypen. Het is gebasseerd op flexibele eenvoudig te gebruiken hardware en software. 
         <h3 class="opdrachten">Opdracht 3c - Blink multiple LEDs</h3>
         <p>In deze opdracht heb ik ervoor gezorgd dat het groene lampje twee keer zo snel knipperde als het gele lampje. Voor deze opdracht heb ik naast de LED's, jumping wires en resistors gebruikt. Jumping wires zorgen ervoor dat de elementen met elkaar verbonden raken. Ik moest de groene en de gele lamp met elkaar verbinden. De groene lamp zit verbonden met de Ground op het Arduino Board. Daarmee zit de gele lamp ook weer verbonden. De resisors zorgen ervoor dat de hoeveelheid stroom die erdoorheen komt wordt beperkt. Door middel van logisch nadenken, was het programmeren van deze opdracht uiteindelijk goed te doen. Er moest vooral worden nagedacht over de delay tussen het aan en uitgaan tussen de twee LED's. Één LED heeft meer delays. Hieronder staan de code die ik heb gebruikt voor deze opdracht, foto's en een filmpje van de opdracht.</p>
@@ -163,7 +163,7 @@
         <p class="formuleT">R1 LDR Dark</p>
         <p class="formule">Vout = 5 ∗ (200 / (5000000+ 200)) ≈ 0,0002</p>
 
-        <p>Het is logisch dat de uitkomst bij allebei donker en allebei ligt hetzelfde is, omdat de resistors allebei hetzelfde moeten doen. Er wordt door hetzelfde getal gedeeld overal in de formule. Dus de uitkomst zal hetzelfde zijn.</p>
+        <p>Het is logisch dat de uitkomst bij allebei donker en allebei licht hetzelfde is, omdat de resistors allebei hetzelfde moeten doen. Er wordt door hetzelfde getal gedeeld overal in de formule. Dus de uitkomst zal hetzelfde zijn.</p>
 
         <p>Als R1 LDR donker is, dan wordt een groot getal door een groot getal gedeeld, de uitkomst ligt dan hoger. Als R2 donker is, dan wordt een klein getal door een groot getal gedeeld, de uitkomst zal dan lager liggen. </p>
 
